@@ -1,0 +1,12 @@
+{
+  "name": "node-performance-tutorial",
+  "version": "1.0.0",
+  "description": "simple express app utilizing node in cluster mode and worker threads",
+  "main": "index.js",
+  "repository": "https://github.com/LoganAHart/node-performance-tutorial.git",
+  "author": "Logan Hart",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
