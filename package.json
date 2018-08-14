@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "simple express app utilizing node in cluster mode and worker threads",
   "main": "index.js",
+  "scripts": {
+    "ab-fast": "ab -c 50 -n 500 localhost:3000/fast"
+  },
   "repository": "https://github.com/LoganAHart/node-performance-tutorial.git",
   "author": "Logan Hart",
   "license": "MIT",
