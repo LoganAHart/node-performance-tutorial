@@ -4,6 +4,8 @@
   "description": "simple express app utilizing node in cluster mode and worker threads",
   "main": "index.js",
   "scripts": {
+    "ab-baseline": "ab -c 1 -n 1 localhost:3000/",
+    "ab-c4n4": "ab -c 4 -n 4 localhost:3000/",
     "ab-fast": "ab -c 50 -n 500 localhost:3000/fast"
   },
   "repository": "https://github.com/LoganAHart/node-performance-tutorial.git",
